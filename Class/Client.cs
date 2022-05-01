@@ -6,12 +6,12 @@ using System.Text;
 
 namespace ACS.Librairie
 {
-    public class Client
+    public class Client : CommonClass
     {
         private static string urlMain = Settings.urlClients;
         private int isClient = 1;
-
-        public int? Id { get; set; }
+        
+        //public int? Id { get; set; }
         public string Nom { get; set; }
         public string Adresse { get; set; }
         public string CodePostal { get; set; }

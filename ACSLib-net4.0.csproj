@@ -52,6 +52,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class\CommonClass.cs" />
     <Compile Include="Class\ZipTown.cs" />
     <Compile Include="Common.cs" />
     <Compile Include="Component\ButtonACS.cs">
